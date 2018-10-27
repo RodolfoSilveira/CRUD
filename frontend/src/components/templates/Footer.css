@@ -1,0 +1,14 @@
+footer.footer{
+    grid-area: footer;
+    box-shadow: 2px 0 10px 0 rgba(0,0,0,.12), 2px 0 15px 0 rgba(0,0,0,.9);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dev{
+    font-size: 1.2em;
+    font-weight: 100;
+    margin: 0;
+}
