@@ -9,7 +9,7 @@ export default class Header extends Component {
     render(){
         return(
             <header className='header'>
-                <Link to='/' className="toggle" onClick={this.props.action}>
+                <Link to='#' className="toggle" onClick={this.props.action}>
                     <i className={`fa fa-angle-${this.props.icon}`}></i>
                 </Link>
                 <h1 className='title'><Link to='/'>{this.props.title}</Link></h1>

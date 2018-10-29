@@ -3,7 +3,7 @@ import './PageTitle.css'
 
 export default props => 
 
-    <div className='container text-center'>
+    <div className='container text-center py-3'>
         <h1>{props.title}</h1>
-        <hr/>        
+        <hr className='hr'/>        
     </div>

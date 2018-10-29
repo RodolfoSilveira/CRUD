@@ -4,7 +4,13 @@ module.exports = app => {
 
     const save = (req, res) => {
 
-        const stock = {...req.body}
+        const stock = {
+            id: req.body.id,
+            product: req.body.product,
+            description: req.body.description,
+            amount: req.body.amount,
+            value: req.body.value
+        }
 
         if(req.params.id) stock.id = req.params.id
 
